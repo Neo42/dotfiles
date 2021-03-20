@@ -40,4 +40,5 @@ Plug 'Rigellute/rigel'
 Plug 'liuchengxu/vim-which-key'
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/nvim-compe'
+Plug 'prabirshrestha/vim-lsp'
 call plug#end()
