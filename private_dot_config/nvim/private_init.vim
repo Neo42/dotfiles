@@ -26,6 +26,7 @@ set nowritebackup
 set clipboard=unnamedplus
 set showfulltag
 set conceallevel=0
+set completeopt=menuone,noselect
 
 source ~/.config/nvim/vim-plug/plug.vim
 
