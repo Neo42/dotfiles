@@ -14,7 +14,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'psliwka/vim-smoothie'
 Plug 'ryanoasis/vim-devicons'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'airblade/vim-gitgutter'
 Plug 'scrooloose/nerdcommenter'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
@@ -38,4 +38,6 @@ Plug 'haishanh/night-owl.vim'
 Plug 'srcery-colors/srcery-vim'
 Plug 'Rigellute/rigel'
 Plug 'liuchengxu/vim-which-key'
+Plug 'neovim/nvim-lspconfig'
+Plug 'hrsh7th/nvim-compe'
 call plug#end()
