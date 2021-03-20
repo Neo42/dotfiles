@@ -1,0 +1,20 @@
+{
+  "coc.preferences.extensionUpdateCheck": "daily",
+  "suggest.noselect": false,
+  "suggest.autoTrigger": "always",
+  "signature.enable": true,
+  "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/utils/snips"],
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "html",
+    "yaml",
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "javascriptreact",
+    "typescript.tsx",
+    "graphql"
+  ]
+}
