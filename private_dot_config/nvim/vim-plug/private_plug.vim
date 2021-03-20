@@ -37,4 +37,5 @@ Plug 'casprwang/vim-git-it'
 Plug 'haishanh/night-owl.vim'
 Plug 'srcery-colors/srcery-vim'
 Plug 'Rigellute/rigel'
+Plug 'liuchengxu/vim-which-key'
 call plug#end()

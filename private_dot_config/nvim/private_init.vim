@@ -70,6 +70,7 @@ if exists("g:loaded_webdevicons")
 	call webdevicons#refresh()
 endif
 
+source $HOME/.config/nvim/keys/which-key.vim
 source $HOME/.config/nvim/plug-config/coc.vim
 
 colorscheme night-owl
