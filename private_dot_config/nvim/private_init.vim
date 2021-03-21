@@ -2,6 +2,7 @@ syntax on
 filetype plugin on
 language en_US
 inoremap jk <esc>
+set noruler
 set shortmess+=c
 set cursorline
 set scrolloff=12
@@ -19,7 +20,7 @@ set encoding=utf-8
 set fileencoding=utf-8
 set splitbelow
 set splitright
-set laststatus=2 
+set laststatus=2
 set updatetime=300
 set nobackup
 set nowritebackup
@@ -33,7 +34,7 @@ source ~/.config/nvim/vim-plug/plug.vim
 nnoremap <SPACE> <Nop>
 let mapleader = " "
 nnoremap <leader><CR> :w <bar> so ~/.config/nvim/init.vim<CR>
-"inoremap <silent><expr> <c-space> coc#refresh()
+inoremap <silent><expr> <c-space> coc#refresh()
 nnoremap <leader>I :PlugInstall<CR>
 nnoremap <leader>C :PlugClean <bar> y<CR>
 vmap ++ <plug>NERDCommenterToggle
@@ -58,21 +59,21 @@ nnoremap hr+2  :resize +2<CR>
 nnoremap vhr-2 :vertical resize -2<CR>
 nnoremap vhr+2 :vertical resize +2<CR>
 
-"let g:coc_global_extensions = [
-  "\ 'coc-snippets',
-  "\ 'coc-pairs',
-  "\ 'coc-tsserver',
-  "\ 'coc-eslint',
-  "\ 'coc-prettier',
-  "\ 'coc-json',
-  "\ ]
+let g:coc_global_extensions = [
+  \ 'coc-snippets',
+  \ 'coc-pairs',
+  \ 'coc-tsserver',
+  \ 'coc-eslint',
+  \ 'coc-prettier',
+  \ 'coc-json',
+  \ ]
 
 if exists("g:loaded_webdevicons")
-	call webdevicons#refresh()
+call webdevicons#refresh()
 endif
 
 source $HOME/.config/nvim/keys/which-key.vim
-"source $HOME/.config/nvim/plug-config/coc.vim
+source $HOME/.config/nvim/plug-config/coc.vim
 
 colorscheme night-owl
 let g:airline_theme='rigel'
@@ -157,3 +158,18 @@ autocmd FileType * RainbowParentheses
 
 lua require('nv-compe')
 lua require('colorizer')
+
+autocmd FileType html,css,javascript.jsx EmmetInstall
+
+" lets emmet use jsx shortcuts
+let g:user_emmet_settings = {
+\  'javascript' : {
+\      'extends' : 'jsx',
+\  },
+\ 'typescript' : {
+\     'extends' : 'jsx',
+\ },
+\}
+
+let g:jsx_ext_required = 0
+let g:user_emmet_mode='a'    "enable all function in all mode.

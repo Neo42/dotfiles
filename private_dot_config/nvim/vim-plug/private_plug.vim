@@ -14,7 +14,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'psliwka/vim-smoothie'
 Plug 'ryanoasis/vim-devicons'
-"Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'airblade/vim-gitgutter'
 Plug 'scrooloose/nerdcommenter'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
@@ -44,4 +44,6 @@ Plug 'prabirshrestha/vim-lsp'
 Plug 'justinmk/vim-sneak'
 Plug 'norcalli/nvim-colorizer.lua'
 Plug 'junegunn/rainbow_parentheses.vim'
+Plug 'kabouzeid/nvim-lspinstall'
+Plug 'mattn/emmet-vim'
 call plug#end()
