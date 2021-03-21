@@ -4,8 +4,6 @@ language en_US
 inoremap jk <esc>
 set noruler
 set shortmess+=c
-hi CursorLine gui=underline
-set cursorline
 set scrolloff=5
 set noshowcmd
 set noshowmode
@@ -80,7 +78,7 @@ colorscheme night-owl
 let g:airline_theme='rigel'
 
 set cursorline
-hi CursorLine cterm=underline ctermbg=NONE guibg=NONE gui=underline
+hi CursorLine guibg=NONE gui=underline
 
 lua require('lspconfig').tsserver.setup{}
 
