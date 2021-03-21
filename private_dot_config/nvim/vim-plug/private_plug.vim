@@ -43,4 +43,5 @@ Plug 'hrsh7th/nvim-compe'
 Plug 'prabirshrestha/vim-lsp'
 Plug 'justinmk/vim-sneak'
 Plug 'norcalli/nvim-colorizer.lua'
+Plug 'junegunn/rainbow_parentheses.vim'
 call plug#end()
