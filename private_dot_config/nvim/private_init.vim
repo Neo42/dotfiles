@@ -4,7 +4,7 @@ language en_US
 inoremap jk <esc>
 set noruler
 set shortmess+=c
-set scrolloff=5
+set scrolloff=8
 set noshowcmd
 set noshowmode
 set number
