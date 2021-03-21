@@ -71,7 +71,6 @@ if exists("g:loaded_webdevicons")
 call webdevicons#refresh()
 endif
 
-source $HOME/.config/nvim/keys/which-key.vim
 source $HOME/.config/nvim/plug-config/coc.vim
 
 colorscheme night-owl
@@ -175,3 +174,5 @@ let g:user_emmet_settings = {
 
 let g:jsx_ext_required = 0
 let g:user_emmet_mode='a'    "enable all function in all mode.
+
+source $HOME/.config/nvim/plug-config/floaterm.vim

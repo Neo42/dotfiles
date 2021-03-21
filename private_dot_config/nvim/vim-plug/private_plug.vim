@@ -46,4 +46,5 @@ Plug 'norcalli/nvim-colorizer.lua'
 Plug 'junegunn/rainbow_parentheses.vim'
 Plug 'kabouzeid/nvim-lspinstall'
 Plug 'mattn/emmet-vim'
+Plug 'voldikss/vim-floaterm'
 call plug#end()
