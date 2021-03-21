@@ -73,8 +73,8 @@ endif
 
 source $HOME/.config/nvim/plug-config/coc.vim
 
-colorscheme night-owl
-let g:airline_theme='rigel'
+colorscheme iceberg
+let g:airline_theme='iceberg'
 
 set cursorline
 hi CursorLine guibg=NONE gui=underline
