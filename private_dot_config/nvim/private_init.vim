@@ -176,3 +176,4 @@ let g:jsx_ext_required = 0
 let g:user_emmet_mode='a'    "enable all function in all mode.
 
 source $HOME/.config/nvim/plug-config/floaterm.vim
+hi FloatermBorder guibg=NONE guifg=cyan
