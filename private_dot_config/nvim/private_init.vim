@@ -4,8 +4,9 @@ language en_US
 inoremap jk <esc>
 set noruler
 set shortmess+=c
+hi CursorLine gui=underline
 set cursorline
-set scrolloff=12
+set scrolloff=5
 set noshowcmd
 set noshowmode
 set number
@@ -77,6 +78,9 @@ source $HOME/.config/nvim/plug-config/coc.vim
 
 colorscheme night-owl
 let g:airline_theme='rigel'
+
+set cursorline
+hi CursorLine cterm=underline ctermbg=NONE guibg=NONE gui=underline
 
 lua require('lspconfig').tsserver.setup{}
 
