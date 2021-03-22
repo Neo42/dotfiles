@@ -13,7 +13,6 @@ set tabstop=2 softtabstop=2
 set shiftwidth=2
 set expandtab
 set smartindent
-set termguicolors
 set background=dark
 set encoding=utf-8
 set fileencoding=utf-8
@@ -74,10 +73,9 @@ endif
 source $HOME/.config/nvim/plug-config/coc.vim
 
 colorscheme wal
-let g:airline_theme='iceberg'
 
 set cursorline
-hi CursorLine guibg=NONE gui=underline
+hi CursorLine cterm=underline ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE
 
 lua require('lspconfig').tsserver.setup{}
 
