@@ -1,6 +1,6 @@
 # My Dotfiles
 
-Home for my neovim, fishshell and friends. Synced using the [Chezmoi](https://github.com/twpayne/chezmoi).
+Home for my neovim, fishshell and friends. Synced using [Chezmoi](https://github.com/twpayne/chezmoi).
 
 ![VS Code Theme](./img/vscode-theme.png)
 ![Terminal & Neovim Theme](./img/term-theme.png)
