@@ -1,0 +1,204 @@
+{
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.fontFamily": "Fira Code, Hiragino Sans GB",
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"erb": "html",
+		"reason": "javascriptreact",
+		"html-eex": "html",
+		"njk": "html"
+	},
+	"emmet.syntaxProfiles": {
+		"javascript": "jsx",
+		"xml": {
+			"attr_quotes": "single"
+		}
+	},
+	"workbench.startupEditor": "none",
+	"editor.acceptSuggestionOnCommitCharacter": false,
+	"editor.scrollBeyondLastLine": false,
+	"editor.formatOnPaste": false,
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"powermode.explosionSize": 10,
+	"powermode.enableStatusBarComboTimer": false,
+	"editor.tabCompletion": "on",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"javascript.preferences.quoteStyle": "single",
+	"terminal.integrated.shell.osx": "/usr/local/bin/fish",
+	"editor.fontLigatures": true,
+	"terminal.integrated.rendererType": "dom",
+	"editor.scrollBeyondLastColumn": 0,
+	"editor.fastScrollSensitivity": 4,
+	"liveServer.settings.donotVerifyTags": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"quokka.suppressExpirationNotifications": true,
+	"html.autoClosingTags": false,
+	"explorer.confirmDelete": false,
+	"workbench.editor.tabSizing": "shrink",
+	"workbench.iconTheme": "material-icon-theme",
+	"json.format.enable": true,
+	"git.suggestSmartCommit": false,
+	"editor.cursorBlinking": "solid",
+	"editor.cursorWidth": 1,
+	"debug.console.fontFamily": "Fira Code",
+	"editor.matchBrackets": "never",
+	"workbench.tree.indent": 20,
+	"importCost.debug": true,
+	"[xml]": {
+		"editor.defaultFormatter": "DotJoshJohnson.xml"
+	},
+	"eslint.alwaysShowStatus": true,
+	"eslint.workingDirectories": [{ "mode": "auto" }],
+	"javascript.preferences.importModuleSpecifier": "relative",
+	"python.formatting.autopep8Args": ["--indent-size=2"],
+	"files.associations": {
+		"*.erb": "erb"
+	},
+	"editor.linkedEditing": true,
+	"quokka.compactMessageOutput": true,
+	"python.languageServer": "Microsoft",
+	"editor.fontWeight": "400",
+	"powermode.enableShake": false,
+	"powermode.presets": "magic",
+	"pythonPreview.code.lineHeight": 40,
+	"editor.parameterHints.cycle": true,
+	"typescript.enablePromptUseWorkspaceTsdk": true,
+	"typescript.tsserver.experimental.enableProjectDiagnostics": false,
+	"[rust]": {
+		"editor.defaultFormatter": "statiolake.vscode-rustfmt"
+	},
+	"quokka.darkTheme.log.decorationAttachmentRenderOptions": {
+		"borderColor": null,
+		"fontStyle": null,
+		"fontWeight": null,
+		"textDecoration": null,
+		"color": "cyan",
+		"backgroundColor": null,
+		"margin": "1.2em",
+		"width": null,
+		"height": null
+	},
+	"terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe",
+	"python.defaultInterpreterPath": "",
+	"customizeUI.activityBar": "bottom",
+	"customizeUI.titleBar": "frameless",
+	"[haskell]": {
+		"editor.defaultFormatter": "haskell.haskell"
+	},
+	"[shellscript]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	},
+	"editor.accessibilitySupport": "off",
+	"[reason]": {
+		"editor.defaultFormatter": "jaredly.reason-vscode"
+	},
+	"terminal.integrated.fontFamily": "Fira Code, dankmono nerd font",
+	"[HTML (EEx)]": {
+		"editor.defaultFormatter": "HookyQR.beautify"
+	},
+	"[ignore]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	},
+	"[properties]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	},
+	"jupyter.alwaysTrustNotebooks": true,
+	"elixir.credo.onSave": false,
+	"html.format.wrapLineLength": 0,
+	"diffEditor.wordWrap": "on",
+	"editor.codeLensFontFamily": "Fira Code",
+	"editor.wrappingIndent": "same",
+	"editor.wordWrapColumn": 120,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"terminal.integrated.fontSize": 13,
+	"markdown.preview.lineHeight": 1.64,
+	"editor.renderWhitespace": "all",
+	"bracketPairColorizer.forceUniqueOpeningColor": true,
+	"bracketPairColorizer.colorMode": "Independent",
+	"bracketPairColorizer.independentPairColors": [
+		[
+			"()",
+			["#0c969b"],
+			"Red" // use when right bracket is missing
+		],
+		["[]", ["#c789d6"], "Red"],
+		["{}", ["#4876d6"], "Red"]
+	],
+	"bracketPairColorizer.highlightActiveScope": true,
+	"bracketPairColorizer.activeScopeCSS": [
+		"backgroundColor : #c789d6;opacity:0.3;"
+	],
+	"tabnine.experimentalAutoImports": true,
+	"liveFrame.url": "http://localhost:3000/getting-started.html",
+	"liveFrame.title": "Getting Started",
+	"liveFrame.pane": "Beside",
+	"workbench.editor.showTabs": false,
+	"editor.lineHeight": 30,
+	"workbench.productIconTheme": "icons-carbon",
+	// egghead
+	"explorer.confirmDragAndDrop": false,
+	// "editor.lightbulb.enabled": false,
+	// "breadcrumbs.enabled": false,
+	// "workbench.activityBar.visible": false,
+	// "workbench.statusBar.visible": false,
+	// "editor.quickSuggestions": false,
+	// "editor.suggestOnTriggerCharacters": false,
+	// "editor.quickSuggestionsDelay": 1000000,
+	// "editor.wordBasedSuggestions": false,
+	// "editor.parameterHints.enabled": false,
+	// "window.zoomLevel": 1,
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 50,
+	"vsicons.dontShowNewVersionMessage": true,
+	"[markdown]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.renderControlCharacters": true,
+	"customizeUI.font.monospace": "Fira Code",
+	"customizeUI.font.regular": "Fira Code",
+	"editor.inlineHints.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+	"customizeUI.stylesheet": {
+		"[id='workbench.view.explorer'] .pane-body ": "font-size: 12px;",
+		"[id='workbench.view.explorer'] .monaco-icon-label.folder-icon > .monaco-icon-label-container > .monaco-icon-name-container > .label-name": "font-weight: 900; filter: brightness(1.5);"
+	},
+	"customizeUI.fontSizeMap": {
+		"13px": "13px",
+		"monospace": "14px"
+	},
+	"window.titleBarStyle": "native",
+	"terminal.integrated.lineHeight": 1.8,
+	"bracketPairColorizer.showBracketsInRuler": true,
+	"quokka.showOutputOnStart": false,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"workbench.colorTheme": "Wal",
+	"editor.tabSize": 2,
+	"editor.formatOnType": false,
+	"editor.formatOnSave": false,
+	"breadcrumbs.enabled": false,
+	"editor.cursorSurroundingLines": 11,
+	"prettier.trailingComma": "none",
+	"prettier.semi": false,
+	"prettier.embeddedLanguageFormatting": "off",
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+	"emmet.triggerExpansionOnTab": true,
+	"editor.glyphMargin": false,
+	"markdown.preview.fontFamily": "Hiragino Sans GB",
+	"gitlens.mode.active": "zen",
+	"pasteImage.path": "${currentFileDir}/images",
+	"vim.useSystemClipboard": true,
+	"dimmer.context": 2,
+	"editor.cursorSmoothCaretAnimation": true,
+	"C_Cpp.updateChannel": "Insiders",
+	"vim.insertModeKeyBindings": [
+		{
+			"before": ["j", "j"],
+			"after": ["<Esc>"]
+		}
+	],
+	"webhint.enableTelemetry": "disabled",
+	"editor.lineNumbers": "relative"
+}
