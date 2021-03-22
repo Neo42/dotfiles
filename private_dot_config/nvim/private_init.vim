@@ -73,7 +73,7 @@ endif
 
 source $HOME/.config/nvim/plug-config/coc.vim
 
-colorscheme iceberg
+colorscheme wal
 let g:airline_theme='iceberg'
 
 set cursorline

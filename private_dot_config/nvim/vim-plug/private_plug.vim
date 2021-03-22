@@ -47,4 +47,5 @@ Plug 'junegunn/rainbow_parentheses.vim'
 Plug 'kabouzeid/nvim-lspinstall'
 Plug 'mattn/emmet-vim'
 Plug 'voldikss/vim-floaterm'
+Plug 'dylanaraps/wal.vim'
 call plug#end()
